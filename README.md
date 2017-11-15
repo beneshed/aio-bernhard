@@ -13,3 +13,9 @@ import aiobernhard
 c = bernhard.Client()
 await c.send({'host': 'myhost.foobar.com', 'service': 'myservice', 'metric': 12})
 ```
+
+###TO DO
+- [ ] UDP Transport
+- [ ] Query
+- [ ] SSL Transport
+
